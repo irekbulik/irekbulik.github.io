@@ -2,6 +2,7 @@
 </div>
 <script type="module">
 Highcharts.chart('wordcloud', {
+    credits : { enabled : false },
     series: [{
         type: 'wordcloud',
         data: [
