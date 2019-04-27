@@ -1,9 +1,4 @@
----
-layout: post
-category : js
-tagline: "Testing highcharts"
-tags : [highcharts]
----
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
 </script>
 <script type="text/javascript" src="http://code.highcharts.com/highcharts.js">
@@ -17,24 +12,20 @@ tags : [highcharts]
 <script type="module">
     import Highcharts from "https://code.highcharts.com/es-modules/masters/highcharts.src.js";
     Highcharts.chart("container", {
+            chart: {
+                type: "column" 
+            }, 
+            credits : { enabled : false },
             title: {
-                text: "Monthly Average Temperature",
-            },
-            subtitle: {
+                text: "Recent citations",
             },
             xAxis: {
-                categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+                categories: ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']
             },
             yAxis: {
                 title: {
-                    text: "Temperature (°C)"
-                },
-                plotLines: [{
-                    value: 0,
-                    width: 1,
-                    color: "#808080"
-                }]
+                    text: "number of cites"
+                }
             },
             legend: {
                 layout: "vertical",
@@ -42,7 +33,9 @@ tags : [highcharts]
                 verticalAlign: "middle",
                 borderWidth: 0
             },
-            series: [{
+            series: [{ 
+                name : "Citations", 
+                data : [5, 6, 36, 63, 110, 188, 186, 212, 70] 
             }]
         });
 </script>

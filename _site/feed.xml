@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-27T00:08:24-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">irek bulik</title><subtitle>quantum chemist turned qualitative strategist. from strong correlation in condensed matter and molecules in the outer space to financial markets. plan to write on random topics.</subtitle><entry><title type="html">first post</title><link href="http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="first post" /><published>2019-04-26T22:09:55-04:00</published><updated>2019-04-26T22:09:55-04:00</updated><id>http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll.html">&lt;p&gt;A story of interesting primes…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-27T15:58:20-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">irek bulik</title><subtitle>quantum chemist turned qualitative strategist. from strong correlation in condensed matter and molecules in the outer space to financial markets. plan to write on random topics.</subtitle><entry><title type="html">first post</title><link href="http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="first post" /><published>2019-04-26T22:09:55-04:00</published><updated>2019-04-26T22:09:55-04:00</updated><id>http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll.html">&lt;p&gt;A story of interesting primes…&lt;/p&gt;
 
 &lt;p&gt;(one day, the syntax will be highlighted)&lt;/p&gt;
 
@@ -50,51 +50,75 @@ J_mp =: 3 : '&quot;:@(1&amp;amp;p:)@&quot;.@,&amp;amp;(120}a.)@(;@:(&amp;lt;@&qu
 &lt;/div&gt;
 
 &lt;script type=&quot;module&quot;&gt;
-    import Highcharts from 'https://code.highcharts.com/es-modules/masters/highcharts.src.js';
-    Highcharts.chart('container', {
+    import Highcharts from &quot;https://code.highcharts.com/es-modules/masters/highcharts.src.js&quot;;
+    Highcharts.chart(&quot;container&quot;, {
             title: {
-                text: 'Monthly Average Temperature',
-                x: -20 //center
+                text: &quot;Monthly Average Temperature&quot;,
             },
             subtitle: {
-                text: 'Source: WorldClimate.com',
-                x: -20
             },
             xAxis: {
-                categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+                categories: [&quot;Jan&quot;, &quot;Feb&quot;, &quot;Mar&quot;, &quot;Apr&quot;, &quot;May&quot;, &quot;Jun&quot;,
+                    &quot;Jul&quot;, &quot;Aug&quot;, &quot;Sep&quot;, &quot;Oct&quot;, &quot;Nov&quot;, &quot;Dec&quot;]
             },
             yAxis: {
                 title: {
-                    text: 'Temperature (°C)'
+                    text: &quot;Temperature (°C)&quot;
                 },
                 plotLines: [{
                     value: 0,
                     width: 1,
-                    color: '#808080'
+                    color: &quot;#808080&quot;
                 }]
             },
-            tooltip: {
-                valueSuffix: '°C'
-            },
             legend: {
-                layout: 'vertical',
-                align: 'right',
-                verticalAlign: 'middle',
+                layout: &quot;vertical&quot;,
+                align: &quot;right&quot;,
+                verticalAlign: &quot;middle&quot;,
                 borderWidth: 0
             },
             series: [{
-                name: 'Tokyo',
-                data: [7.0, 6.9, 9.5, 14.5, 18.2, 21.5, 25.2, 26.5, 23.3, 18.3, 13.9, 9.6]
-            }, {
-                name: 'New York',
-                data: [-0.2, 0.8, 5.7, 11.3, 17.0, 22.0, 24.8, 24.1, 20.1, 14.1, 8.6, 2.5]
-            }, {
-                name: 'Berlin',
-                data: [-0.9, 0.6, 3.5, 8.4, 13.5, 17.0, 18.6, 17.9, 14.3, 9.0, 3.9, 1.0]
-            }, {
-                name: 'London',
-                data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+            }]
+        });
+&lt;/script&gt;</content><author><name></name></author><category term="js" /><category term="highcharts" /><summary type="html"></summary></entry><entry><title type="html">Test</title><link href="http://localhost:4000/js/2019/04/26/test.html" rel="alternate" type="text/html" title="Test" /><published>2019-04-26T00:00:00-04:00</published><updated>2019-04-26T00:00:00-04:00</updated><id>http://localhost:4000/js/2019/04/26/test</id><content type="html" xml:base="http://localhost:4000/js/2019/04/26/test.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://code.highcharts.com/highcharts.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://code.highcharts.com/modules/exporting.js&quot;&gt;
+&lt;/script&gt;
+
+&lt;div id=&quot;container&quot; style=&quot;min-width: 310px; height: 400px; margin: 0 auto&quot;&gt;
+&lt;/div&gt;
+
+&lt;script type=&quot;module&quot;&gt;
+    import Highcharts from &quot;https://code.highcharts.com/es-modules/masters/highcharts.src.js&quot;;
+    Highcharts.chart(&quot;container&quot;, {
+            chart: {
+                type: &quot;column&quot; 
+            }, 
+            credits : { enabled : false },
+            title: {
+                text: &quot;Recent citations&quot;,
+            },
+            xAxis: {
+                categories: ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']
+            },
+            yAxis: {
+                title: {
+                    text: &quot;number of cites&quot;
+                }
+            },
+            legend: {
+                layout: &quot;vertical&quot;,
+                align: &quot;right&quot;,
+                verticalAlign: &quot;middle&quot;,
+                borderWidth: 0
+            },
+            series: [{ 
+                name : &quot;Citations&quot;, 
+                data : [5, 6, 36, 63, 110, 188, 186, 212, 70] 
             }]
         });
 &lt;/script&gt;</content><author><name></name></author><category term="js" /><category term="highcharts" /><summary type="html"></summary></entry></feed>
