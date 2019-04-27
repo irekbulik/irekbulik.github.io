@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-26T23:51:46-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">irek bulik</title><subtitle>quantum chemist turned qualitative strategist. from strong correlation in condensed matter and molecules in the outer space to financial markets.</subtitle><entry><title type="html">first post</title><link href="http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="first post" /><published>2019-04-26T22:09:55-04:00</published><updated>2019-04-26T22:09:55-04:00</updated><id>http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll.html">&lt;p&gt;A story of interesting primes…&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-27T00:08:24-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">irek bulik</title><subtitle>quantum chemist turned qualitative strategist. from strong correlation in condensed matter and molecules in the outer space to financial markets. plan to write on random topics.</subtitle><entry><title type="html">first post</title><link href="http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll.html" rel="alternate" type="text/html" title="first post" /><published>2019-04-26T22:09:55-04:00</published><updated>2019-04-26T22:09:55-04:00</updated><id>http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/04/26/welcome-to-jekyll.html">&lt;p&gt;A story of interesting primes…&lt;/p&gt;
 
 &lt;p&gt;(one day, the syntax will be highlighted)&lt;/p&gt;
 
@@ -37,20 +37,21 @@ J_mp =: 3 : '&quot;:@(1&amp;amp;p:)@&quot;.@,&amp;amp;(120}a.)@(;@:(&amp;lt;@&qu
 &lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is_prime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
     &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;isprime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strtoi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
   &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">A story of interesting primes…</summary></entry><entry><title type="html">Highcharts</title><link href="http://localhost:4000/js/2019/04/26/highcharts.html" rel="alternate" type="text/html" title="Highcharts" /><published>2019-04-26T00:00:00-04:00</published><updated>2019-04-26T00:00:00-04:00</updated><id>http://localhost:4000/js/2019/04/26/highcharts</id><content type="html" xml:base="http://localhost:4000/js/2019/04/26/highcharts.html">&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&quot;&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><summary type="html">A story of interesting primes…</summary></entry><entry><title type="html">Highcharts</title><link href="http://localhost:4000/js/2019/04/26/highcharts.html" rel="alternate" type="text/html" title="Highcharts" /><published>2019-04-26T00:00:00-04:00</published><updated>2019-04-26T00:00:00-04:00</updated><id>http://localhost:4000/js/2019/04/26/highcharts</id><content type="html" xml:base="http://localhost:4000/js/2019/04/26/highcharts.html">&lt;script type=&quot;text/javascript&quot; src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js&quot;&gt;
 &lt;/script&gt;
 
-&lt;script src=&quot;http://code.highcharts.com/highcharts.js&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://code.highcharts.com/highcharts.js&quot;&gt;
 &lt;/script&gt;
 
-&lt;script src=&quot;http://code.highcharts.com/modules/exporting.js&quot;&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://code.highcharts.com/modules/exporting.js&quot;&gt;
 &lt;/script&gt;
 
 &lt;div id=&quot;container&quot; style=&quot;min-width: 310px; height: 400px; margin: 0 auto&quot;&gt;
 &lt;/div&gt;
 
-&lt;script type=&quot;text/javascript&quot;&gt;
-        $('#container').highcharts({
+&lt;script type=&quot;module&quot;&gt;
+    import Highcharts from 'https://code.highcharts.com/es-modules/masters/highcharts.src.js';
+    Highcharts.chart('container', {
             title: {
                 text: 'Monthly Average Temperature',
                 x: -20 //center

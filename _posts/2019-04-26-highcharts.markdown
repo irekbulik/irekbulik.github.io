@@ -14,8 +14,9 @@ tags : [highcharts]
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
 </div>
 
-<script type="text/javascript">
-        $('#container').highcharts({
+<script type="module">
+    import Highcharts from 'https://code.highcharts.com/es-modules/masters/highcharts.src.js';
+    Highcharts.chart('container', {
             title: {
                 text: 'Monthly Average Temperature',
                 x: -20 //center
