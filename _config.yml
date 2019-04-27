@@ -25,8 +25,16 @@ github_username:  irekbulik
 # Build settings
 markdown: kramdown
 theme: minima
+gems:
+  - jekyll-feed
 #plugins:
 #  - jekyll-feed
+
+header_pages:
+  - about.md
+  - publications.md
+
+highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
