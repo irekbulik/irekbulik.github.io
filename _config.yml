@@ -16,7 +16,7 @@
 title: irek bulik
 email: ireneusz.bulik@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-        random stuff 
+        quantum chemist turned qualitative strategist. from strong correlation in condensed matter and molecules in the outer space to financial markets.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: IrekBulik
@@ -35,6 +35,9 @@ header_pages:
   - publications.md
 
 highlighter: rouge
+
+include:
+  - "_img"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

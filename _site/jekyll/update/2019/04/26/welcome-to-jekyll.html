@@ -79,7 +79,7 @@ pari_mp =: 3 : '":@(fac_p)@(;@:(&lt;@":"0)@f)"0 y'
 J_mp =: 3 : '":@(1&amp;p:)@".@,&amp;(120}a.)@(;@:(&lt;@":"0)@f)"0 y'</code></pre></figure>
 
 <figure class="highlight"><pre><code class="language-c--" data-lang="c++"><span class="c1">//g++ -dynamiclib -o libutils.dylib wrap.cpp -L/usr/local/Cellar/pari/2.9.3/lib -lpari-gmp</span>
-<span class="cp">#include "/usr/local/Cellar/pari/2.9.3/include/pari/pari.h"
+<span class="cp">#include "$PATH_TO_PARI/pari/2.9.3/include/pari/pari.h"
 </span><span class="k">extern</span> <span class="s">"C"</span> <span class="p">{</span>
 <span class="kt">bool</span> <span class="n">is_prime</span><span class="p">(</span><span class="kt">char</span> <span class="o">*</span><span class="n">c</span><span class="p">){</span>
     <span class="k">return</span> <span class="n">isprime</span><span class="p">(</span><span class="n">strtoi</span><span class="p">(</span><span class="n">c</span><span class="p">));</span>
@@ -108,7 +108,7 @@ J_mp =: 3 : '":@(1&amp;p:)@".@,&amp;(120}a.)@(;@:(&lt;@":"0)@f)"0 y'</code></pre
 </div>
 
       <div class="footer-col footer-col-3">
-        <p>random stuff </p>
+        <p>quantum chemist turned qualitative strategist. from strong correlation in condensed matter and molecules in the outer space to financial markets.</p>
       </div>
     </div>
 
