@@ -42,26 +42,23 @@
   <div class="post-content">
     <p>A comprehensive list can be found on my <a href="https://scholar.google.com/citations?user=KNorg_UAAAAJ&amp;hl=en">google scholar</a> with a few made available on <a href="https://arxiv.org/search/?query=ireneusz+bulik&amp;searchtype=author">arXiv</a></p>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js">
+<script src="https://code.highcharts.com/highcharts.js">
 </script>
 
-<script type="text/javascript" src="http://code.highcharts.com/highcharts.js">
+<script src="https://code.highcharts.com/modules/wordcloud.js">
 </script>
 
-<script type="text/javascript" src="http://code.highcharts.com/modules/exporting.js">
-</script>
-
-<div id="container" style="min-width: 500px; height: 400px; margin: 0 auto"> 
+<div id="cites" style="min-width: 500px; height: 400px; margin: 0 auto"> 
 </div>
 <script type="module">
-    import Highcharts from "https://code.highcharts.com/es-modules/masters/highcharts.src.js";
-    Highcharts.chart("container", {
+//    import Highcharts from "https://code.highcharts.com/es-modules/masters/highcharts.src.js";
+    Highcharts.chart("cites", {
             chart: {
                 type: "column" 
             }, 
             credits : { enabled : false },
             title: {
-                text: "Recent citations",
+                text: "benchmark",
             },
             xAxis: {
                 categories: ['2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']
@@ -92,6 +89,157 @@
               }
             ]
         });
+</script>
+
+<div id="wordcloud" style="min-width: 500px; height: 400px; margin: 0 auto"> 
+</div>
+<script type="module">
+Highcharts.chart('wordcloud', {
+    series: [{
+        type: 'wordcloud',
+        data: [
+         ['numerical', 4],
+         ['results', 8],
+         ['properties', 4],
+         ['double', 3],
+         ['model', 8],
+         ['lattice', 7],
+         ['accurate', 9],
+         ['methods', 5],
+         ['including', 6],
+         ['quantum', 5],
+         ['monte', 3],
+         ['method', 5],
+         ['density', 24],
+         ['matrix', 7],
+         ['embedding', 7],
+         ['cluster', 22],
+         ['approximation,', 3],
+         ['diffusion', 3],
+         ['coupled', 18],
+         ['multireference', 3],
+         ['methods.', 4],
+         ['obtained', 3],
+         ['different', 3],
+         ['allows', 3],
+         ['importance', 3],
+         ['present', 6],
+         ['hybrid', 3],
+         ['gradient', 3],
+         ['approximation', 4],
+         ['underlying', 3],
+         ['semilocal', 3],
+         ['meta-gga', 4],
+         ['one', 3],
+         ['based', 3],
+         ['resulting', 3],
+         ['phys.', 4],
+         ['functionals', 8],
+         ['show', 6],
+         ['considered', 3],
+         ['molecular', 5],
+         ['systems', 6],
+         ['also', 4],
+         ['configuration', 4],
+         ['interaction', 4],
+         ['strong', 4],
+         ['correlations', 4],
+         ['however,', 3],
+         ['calculations', 5],
+         ['pair', 8],
+         ['doubles', 10],
+         ['(pccd)', 3],
+         ['doci', 4],
+         ['low', 3],
+         ['several', 3],
+         ['success', 3],
+         ['pccd', 6],
+         ['energy', 4],
+         ['wave', 5],
+         ['dynamic', 5],
+         ['add', 3],
+         ['approach', 7],
+         ['…', 10],
+         ['recently', 4],
+         ['proposed', 4],
+         ['theory', 16],
+         ['g.', 3],
+         ['rev.', 3],
+         ['symmetry', 7],
+         ['breaking', 4],
+         ['mean-field', 3],
+         ['fragment', 5],
+         ['fitting', 3],
+         ['important', 4],
+         ['without', 4],
+         ['accuracy', 4],
+         ['provides', 4],
+         ['systems,', 3],
+         ['presence', 3],
+         ['static', 8],
+         ['correlation.', 3],
+         ['using', 6],
+         ['computationally', 3],
+         ['description', 5],
+         ['presented', 3],
+         ['3', 8],
+         ['functions', 6],
+         ['magnetic', 6],
+         ['functional', 9],
+         ['exchange-correlation', 4],
+         ['local', 3],
+         ['contribution', 3],
+         ['various', 3],
+         ['functionals,', 3],
+         ['phase', 3],
+         ['rpa', 5],
+         ['best', 4],
+         ['previous', 3],
+         ['transition', 3],
+         ['latio', 4],
+         ['electronic', 3],
+         ['functionals.', 3],
+         ['predict', 3],
+         ['excellent', 3],
+         ['states', 5],
+         ['large', 3],
+         ['found', 5],
+         ['study', 3],
+         ['vibrational', 11],
+         ['(hyper)polarizabilities', 3],
+         ['contributions', 4],
+         ['electric', 4],
+         ['first', 4],
+         ['hyperpolarizability', 3],
+         ['nuclear', 3],
+         ['relaxation', 3],
+         ['two', 5],
+         ['energies', 3],
+         ['used', 4],
+         ['containing', 4],
+         ['potential', 3],
+         ['applications', 3],
+         ['efficient', 3],
+         ['strongly', 3],
+         ['computational', 5],
+         ['electrons', 4],
+         ['account', 3],
+         ['cost', 4],
+         ['correlation', 6],
+         ['zero', 4],
+         ['modes', 3],
+         ['hole', 4],
+         ['theory.', 3],
+         ['electron', 5],
+         ['coordinates', 5],
+         ['tools', 3]
+        ],
+        name: 'Occurrences'
+    }],
+    title: {
+        text: 'abstracts'
+    }
+});
 </script>
 
 
