@@ -16,7 +16,8 @@
 title: irek bulik
 email: ireneusz.bulik@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-        quantum chemist turned qualitative strategist. from strong correlation in condensed matter and molecules in the outer space to financial markets.
+        quantum chemist turned qualitative strategist. from strong correlation in condensed matter and molecules in the outer space
+        to financial markets. plan to write on random topics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: IrekBulik
