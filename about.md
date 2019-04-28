@@ -1,6 +1,13 @@
 ---
 layout: page
-title: about 
+title: about me 
 permalink: /about/
 ---
-![me]({{site.url}}/_img/me.jpg){:class="img-responsive"}
+
+<style>
+.round-image {
+  border-radius: 50%
+}
+</style>
+
+![me]({{site.url}}/_img/me.jpg){: .round-image }

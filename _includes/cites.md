@@ -1,6 +1,31 @@
 <div id="cites" style="min-width: 500px; height: 400px; margin: 0 auto"> 
 </div>
 <script type="module">
+Highcharts.theme = {
+//    colors: ['#F3E796', '#95C471', '#35729E', '#251735'],
+    colors: ["#0266C8", "#F90101", "#F2B50F", "#00933B"],
+    colorAxis: {
+        maxColor: '#05426E',
+        minColor: '#F3E796'
+    },
+
+    plotOptions: {
+        map: {
+            nullColor: '#fcfefe'
+        }
+    },
+
+    navigator: {
+        maskFill: 'rgba(170, 205, 170, 0.5)',
+        series: {
+            color: '#95C471',
+            lineColor: '#35729E'
+        }
+    }
+};
+// Apply the theme
+Highcharts.setOptions(Highcharts.theme);
+
 //    import Highcharts from "https://code.highcharts.com/es-modules/masters/highcharts.src.js";
     Highcharts.chart("cites", {
             chart: {
