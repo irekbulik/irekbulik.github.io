@@ -10,4 +10,4 @@ permalink: /about/
 }
 </style>
 
-![me]({{site.url}}/_img/me.jpg){: .round-image }
+![me]({{site.url}}/assets/img/me.jpg){: .round-image }
