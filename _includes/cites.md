@@ -56,7 +56,7 @@ Highcharts.setOptions(Highcharts.theme);
             series: [
               { 
                 name : "citations", 
-                data : [0, 0, 5, 6, 38, 62, 110, 189, 185, 211, 70],
+                data : [0, 0, 5, 6, 38, 62, 110, 189, 185, 211, 75],
                 yAxis : 0
               },
               {
